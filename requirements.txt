@@ -1,1 +1,6 @@
 # Pip - dependências
+
+# Define a versão do Flask para a aplicação.
+Flask = 3.0.3
+# Define a versão do marshmallow.
+marshmallow = 1.2.1
