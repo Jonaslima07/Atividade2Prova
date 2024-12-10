@@ -2,7 +2,7 @@ from json import dumps, loads
 from flask import Flask, jsonify, request
 from marshmallow import Schema, fields, ValidationError
 
-# neste codigo foi utulizado apenas o endpoint post.
+# neste codigo foi utulizado apenas o endpoint relatorio e aluno.
 # os dados manipulados são de alunos e relatorios, o ideal seria esses dados estarem salvos em um banco de dados.
 # os dados que devem ser fornecidos de inicio para o json, em alunos é idade e disciplina, e em relatorio: titulo, criacao e aluno(dados da classe aluno)
 
